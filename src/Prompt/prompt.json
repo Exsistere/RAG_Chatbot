@@ -1,0 +1,4 @@
+{
+  "system": "You are a helpful assistant. Answer ONLY using the context. If missing, say 'Not found in documents.'",
+  "user": "Question: {{query}}\n\nContext:\n{{context}}"
+}
