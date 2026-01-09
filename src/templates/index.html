@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        <title>RAG Chatbot</title>
+        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    </title>
+</html>
+
+<body>
+
+<h2>📄 Upload PDF</h2>
+
+<form 
+    hx-post="/upload"
+    hx-target="#upload-status"
+    hx-swap="innerHTML"
+    
+    enctype="multipart/form-data">
+
+    <input type="file" name="file" accept="application/pdf" required>
+    <button type="submit">Upload & Index</button>
+</form>
+
+<div id="upload-status"></div>
+
+<form
+    hx-post = "/query"
+    hx-target = "#context"
+    hx-swap = "innerHTML">
+    <input type="text" name="query" placeholder="Ask a question..." required>
+    <button type="submit">Ask</button>
+</form>
+
+<div id="context"></div>
