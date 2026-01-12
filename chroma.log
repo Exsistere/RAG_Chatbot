@@ -22,3 +22,107 @@
 [32mINFO[0m:     [09-01-2026 17:01:35] ::1:57807 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
 [32mINFO[0m:     [09-01-2026 17:01:35] ::1:57808 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
 [32mINFO[0m:     [09-01-2026 17:01:35] ::1:57808 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[33mWARNING[0m:  [12-01-2026 10:05:21] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [12-01-2026 10:05:21] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component System
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component SqliteDB
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component Posthog
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [12-01-2026 10:05:21] Starting component SegmentAPI
+[32mINFO[0m:     [12-01-2026 10:05:21] Started server process [[36m3420[0m]
+[32mINFO[0m:     [12-01-2026 10:05:21] Waiting for application startup.
+[32mINFO[0m:     [12-01-2026 10:05:21] Application startup complete.
+[32mINFO[0m:     [12-01-2026 10:05:21] Uvicorn running on [1mhttp://localhost:8005[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [12-01-2026 10:06:03] ::1:50427 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:03] ::1:50427 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:35] ::1:50431 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:35] ::1:50431 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [12-01-2026 10:06:38] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [12-01-2026 10:06:38] ::1:50431 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:44] ::1:50433 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:44] ::1:50433 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:47] ::1:50435 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:47] ::1:50435 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:49] ::1:50435 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:53] ::1:50437 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:53] ::1:50437 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:56] ::1:50438 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:56] ::1:50438 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:06:58] ::1:50438 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:07:08] ::1:50441 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:07:08] ::1:50441 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:07:08] ::1:50442 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:07:08] ::1:50442 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:25] ::1:50477 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:25] ::1:50477 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:36] ::1:50482 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:36] ::1:50482 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:38] ::1:50482 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:43] ::1:50486 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:43] ::1:50486 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:43] ::1:50487 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:09:43] ::1:50487 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:09] ::1:50506 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:09] ::1:50506 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:18] ::1:50509 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:18] ::1:50509 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:21] ::1:50509 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:21] ::1:50510 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:21] ::1:50510 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:21] ::1:50511 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:12:21] ::1:50511 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:27] ::1:50689 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:27] ::1:50689 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:37] ::1:50695 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:37] ::1:50695 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:39] ::1:50695 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:45] ::1:50699 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:45] ::1:50699 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:45] ::1:50700 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:52:45] ::1:50700 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:53:56] ::1:50718 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:53:56] ::1:50718 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:05] ::1:50721 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:05] ::1:50721 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:08] ::1:50721 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:08] ::1:50722 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:08] ::1:50722 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:08] ::1:50723 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:54:08] ::1:50723 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:12] ::1:50734 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:12] ::1:50734 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:23] ::1:50737 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:23] ::1:50737 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:26] ::1:50737 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:26] ::1:50738 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:26] ::1:50738 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:26] ::1:50739 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:26] ::1:50739 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:43] ::1:50745 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:43] ::1:50745 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:43] ::1:50746 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:55:43] ::1:50746 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:04] ::1:50749 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:04] ::1:50749 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:04] ::1:50750 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:04] ::1:50750 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:39] ::1:50753 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:39] ::1:50753 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:39] ::1:50754 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:39] ::1:50754 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:56] ::1:50757 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:56] ::1:50757 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:56] ::1:50758 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 10:56:56] ::1:50758 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:06] ::1:50787 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:06] ::1:50787 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:10] ::1:50789 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:10] ::1:50789 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:12] ::1:50789 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/upsert HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:27] ::1:50792 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:27] ::1:50792 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:28] ::1:50793 - "GET /api/v1/collections/reports?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [12-01-2026 11:00:28] ::1:50793 - "POST /api/v1/collections/c77fc6ba-74f0-4cb0-9857-654bed657b48/query HTTP/1.1" 200

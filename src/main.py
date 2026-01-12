@@ -39,21 +39,21 @@ async def query_context(query: str = Form(...)):
     template = llm_prompt.load_prompt_template()
     system_prompt, user_prompt = llm_prompt.render_prompt(template, query, str(vector_DB_data["documents"]))
     reponse = llm.ask_gemini(user_prompt, system_prompt)
-    return f"""
-        <div class="context_info">
-            <b> Retrieved chunks: </b>
-            {vector_DB_data['documents']}
-            <br>
-        </div>
+    # return f"""
+    #     <div class="context_info">
+    #         <b> Retrieved chunks: </b>
+    #         {vector_DB_data['documents']}
+    #         <br>
+    #     </div>
         
-        <div class="prompt">
-            <b>System Prompt:  </b>
-            {system_prompt}
-            <br>
-            <b> User Prompt: </b>
-            {user_prompt}
-        </div>
-
+    #     <div class="prompt">
+    #         <b>System Prompt:  </b>
+    #         {system_prompt}
+    #         <br>
+    #         <b> User Prompt: </b>
+    #         {user_prompt}
+    #     </div>
+    return f"""
         <div>
             <b>gemini response</b>
             <br>
