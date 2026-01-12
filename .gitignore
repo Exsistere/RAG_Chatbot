@@ -3,3 +3,4 @@ src/data
 src/core/chroma.log
 Data/chroma_data
 replacements.txt
+src/model/llm.py
